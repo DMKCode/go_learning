@@ -7,6 +7,7 @@ import (
 type contactInfo struct {
 	email   string
 	zipCode int
+	// PostCode int // NB: Capital means visible outside package
 }
 
 type person struct {
